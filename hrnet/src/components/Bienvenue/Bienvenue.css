@@ -1,0 +1,52 @@
+.home-wrapper {
+  border: 1px solid #4a79b9;
+  background-color: rgba(105, 156, 213, 0.24);
+  padding: 20px 40px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 250px;
+  margin-top: 100px;
+}
+
+@media (max-width: 700px) {
+  .home-wrapper {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-wrapper .home-inputs {
+    padding: 10px;
+  }
+}
+
+
+@media (max-width: 990px) {
+  .home-wrapper .home-inputs .home-fieldsets {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.home-wrapper .home-inputs .home-button {
+  margin-top: 20px;
+  padding: 1rem 2rem;
+  background-color: red;
+  border-radius: 5px;
+  color: #000;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  border: 1px solid #20ac92;
+}
+
+.home-wrapper .home-inputs .home-button:hover {
+  background: #92ac20;
+  color: #000;
+  border: 1px solid #92ac20;
+}
