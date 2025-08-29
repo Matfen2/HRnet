@@ -1,6 +1,6 @@
 import "./Header.css";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/img/Logo.svg";
+import logo from "../../assets/img/logo.png";
 
 const Header = () => {
     const navStyles = ({ isActive }) => {

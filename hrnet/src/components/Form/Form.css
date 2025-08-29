@@ -1,0 +1,150 @@
+.form-wrapper {
+  border: 1px solid #92ac20;
+  background-color: rgba(141, 244, 17, 0.24);
+  padding: 20px 40px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 900px;
+}
+
+@media (max-width: 700px) {
+  .form-wrapper {
+    padding: 10px;
+  }
+}
+
+.form-wrapper .form-inputs {
+  width: 100%;
+  max-width: 1500px;
+  min-height: 200px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0 30px;
+}
+
+@media (max-width: 480px) {
+  .form-wrapper .form-inputs {
+    padding: 10px;
+  }
+}
+
+.form-wrapper .form-inputs .form-fieldsets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width: 990px) {
+  .form-wrapper .form-inputs .form-fieldsets {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.form-wrapper .form-inputs .form-fieldset {
+  width: 100%;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  background-color: #dcf5ed;
+}
+
+.form-wrapper .form-inputs .form-fieldset legend {
+  color: #000;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.form-wrapper .form-inputs .form-fieldset span {
+  color: red;
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-wrapper .form-inputs label {
+  color: #596e0d;
+  font-weight: 500;
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+.form-wrapper .form-inputs input,
+.form-wrapper .form-inputs select {
+  font-size: 1rem;
+  padding: 5px;
+  margin-top: 5px;
+  width: 100%;
+  color: #000;
+  border: none;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.form-wrapper .form-inputs input:focus {
+  outline: none;
+  border-color: #001877;
+  -webkit-box-shadow: 0 0 10px rgba(0, 2, 112, 0.6);
+  box-shadow: 0 0 10px rgba(0, 2, 112, 0.6);
+}
+
+.form-wrapper .form-inputs select option {
+  background: #fff;
+  color: #596e0d;
+}
+
+.form-wrapper .form-inputs .form-button {
+  margin-top: 20px;
+  padding: 1rem 2rem;
+  background-color: #20ac92;
+  border-radius: 5px;
+  color: #000;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  border: 1px solid #20ac92;
+}
+
+.form-wrapper .form-inputs .form-button:hover {
+  background: #fff;
+  color: #000;
+  border: 1px solid #92ac20;
+}

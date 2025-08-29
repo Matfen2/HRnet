@@ -1,0 +1,225 @@
+.searches {
+  max-width: 1200px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  width: 100%;
+}
+
+.table-group {
+  width: 100%;
+}
+
+@media (max-width: 990px) {
+  .table-group {
+    overflow-y: auto;
+    overflow-x: scroll;
+    scrollbar-color: #596e0d #fff;
+    scrollbar-width: auto;
+  }
+
+  .table-group::-webkit-scrollbar {
+    height: 10px;
+    background: #8ac98a;
+  }
+
+  .table-group::-webkit-scrollbar-track {
+    background: #fff;
+  }
+
+  .table-group::-webkit-scrollbar-thumb {
+    background: #596e0d;
+    border-radius: 30px;
+  }
+}
+
+.search-and-pagination {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 990px) {
+  .search-and-pagination {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .search-and-pagination .search {
+    margin: 0px 0 20px;
+  }
+}
+
+.search-and-pagination .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.search-and-pagination .search select {
+  margin-left: 10px;
+  background-color: #fbf9f4;
+  border: 1px solid #57571c;
+  color: #000;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 8px 0px 8px 5px;
+}
+
+.search-and-pagination .search input {
+  line-height: 1.9rem;
+  padding: 0 10px;
+}
+
+.search-and-pagination .pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+@media (max-width: 990px) {
+  .search-and-pagination .pagination {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .search-and-pagination .pagination .pagination-page {
+    margin-bottom: 10px;
+  }
+
+  .search-and-pagination .pagination span {
+    margin: 20px;
+  }
+
+  .search-and-pagination .pagination .buttons {
+    margin-left: 0px;
+  }
+
+  .search-and-pagination .pagination .buttons button {
+    margin-left: 0px;
+  }
+}
+
+.search-and-pagination .pagination input {
+  margin-left: 10px;
+  background-color: #fbf9f4;
+  border: 1px solid #57571c;
+  color: #000;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 8px 0px 8px 5px;
+}
+
+.search-and-pagination .pagination span {
+  margin: 10px;
+}
+
+.search-and-pagination .pagination .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.search-and-pagination .pagination .buttons button {
+  background-color: #fbf9f4;
+  border: 1px solid #57571c;
+  color: #000;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 8px 12px;
+}
+
+.search-and-pagination .pagination .buttons button:disabled,
+.search-and-pagination .pagination .buttons button[disabled] {
+  background-color: rgba(0, 0, 0, 0);
+  cursor: auto;
+  color: #a3a3a3;
+  border: 1px solid #d5d58e;
+}
+
+table {
+  font-family: "Roboto", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  border: 1px solid #92ac20;
+  padding: 12px 5px;
+  font-size: 0.9rem;
+  text-align: center;
+  line-height: 1.2rem;
+}
+
+table tr:nth-child(even) {
+  background-color: #ebebeb;
+}
+
+table th,
+tfoot td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: beige;
+  color: #596e0d;
+  font-weight: bold;
+}
+
+span img {
+  margin-left: 10px;
+  fill: #718231;
+  font-size: 0.7rem;
+}
+
+.table-message {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
